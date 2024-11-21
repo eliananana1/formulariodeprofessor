@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario professor</title>
+  </head>
+  <body>
+    <h1>Formulário de Inscrição para Professor</h1>
+
+    <form action="">
+      <label for="Nome Completo">Nome Completo: </label>
+      <input type="text" id="Nome" name="Nome" required /> <br />
+
+      <label for="Email">Email: </label>
+      <input type="text" id="Email" name="Email" required /> <br />
+
+      <label for="idade">Idade: </label>
+      <input type="number" id="idade" name="idade" required /> <br />
+
+      <br />
+
+      <h3>Em que turnos você está disponível?</h3>
+
+      <label for="turnosdisponiveis">Turnos Disponíveis</label>
+      <select name="turnosdisponiveis" id="turnosdisponiveis">
+        <option value="matutino">Matutino</option>
+        <option value="vespertino">Vespertino</option>
+        <option value="diurno">Diurno</option>
+      </select>
+
+      <br />
+
+      <h3>Para qual matéria você está se candidatando para lecionar?</h3>
+      <label for="assunto" id="assunto">Matéria</label>
+      <select name="assunto" id="assunto">
+        <option value="matematica">Matemática</option>
+        <option value="portugues">Português</option>
+        <option value="biologia">Biologia</option>
+        <option value="ciencias">Ciências</option>
+        <option value="historia">Historia</option>
+        <option value="geografia">Geografia</option>
+        <option value="artes">Artes</option>
+        <br />
+      </select>
+      <br />
+      <h3>Qual é o seu nível de escolaridade?</h3>
+
+      <label for="nivel de escolaridade">Nível de Escolaridade: </label>
+      <select name="nivel de escolaridade" id="nivel de escolaridade">
+        <option value="ensino superior completo">
+          Ensino Superior completo
+        </option>
+        <option value="cursando mestrado">Cursando Mestrado</option>
+        <option value="mestrado completo">Mestrado Completo</option>
+        <option value="cursando doutorado">Cursando Doutorado</option>
+        <option value="doutorado completo">Doutorado Completo</option>
+      </select>
+
+      <br />
+
+      <h3>Nos conte um pouco sobre você:</h3>
+
+      <label for="Descricao"></label>
+      <textarea name="Descricao" id="Descricao" cols="50" rows="10">
+Descrição</textarea
+      >
+    </form>
+  </body>
+</html>
